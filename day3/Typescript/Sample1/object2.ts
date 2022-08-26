@@ -1,0 +1,2 @@
+let object : {name: string, age:number, address:{street: number, city: string}} = {name:"John",age:23,address:{street:14, city:"Dublin"}}
+console.log(object.name, object.age, object.address.city, object.address.street)
